@@ -334,6 +334,15 @@ section{
   flex-direction: column;
 }
 
+.Firstproject-container{
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
 .article-container{
   display: flex;
   text-align: initial;
@@ -363,6 +372,13 @@ article .icon{
 .color-container{
   border-color: rgb(163,163,163);
   background: rgb(250, 250,250);
+}
+
+.Firstproject{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 160px;
 }
 
 .project-img{
